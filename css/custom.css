@@ -1,0 +1,79 @@
+.close-btn {
+    background-color: transparent;
+    color: inherit !important;
+    font-weight: bolder;
+    /*border-radius: 25px;*/
+    margin-left: auto;
+}
+
+.remote-img {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	object-fit: contain;
+	position: absolute;
+	z-index: 10;
+	background-color: #fff;
+}
+
+#overlay-fs {
+    /* (A1) COVER ENTIRE SCREEN */
+    position: fixed; top: 0; left: 0;
+    width: 100vw; height: 100vh; z-index: 20000;
+    background: rgba(0, 0, 0, 0.99);
+    
+    /* (A2) HIDE OVERLAY BY DEFAULT */
+    opacity: 0; visibility: hidden;
+    -webkit-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+#overlay-fs.show { opacity: 1; visibility: visible; }
+#overlay-fs-content {
+    /* (B1) CENTER ON SCREEN */
+    z-index: 999;
+    position: absolute; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+    /* (B2) DIMENSIONS */
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; padding: 10px;
+    min-width: 300px; max-width: 400px;
+
+    /* (B3) COSMETICS */
+    background: #fff; text-align: center;
+}
+#overlay-fs-close {
+/* (C1) POSITION TOP RIGHT CORNER */
+position: absolute;
+top: 5px; right: 5px;
+
+/* (C2) COSMETICS FONT SIZE */
+font-size: 2.5em; color: #fff; cursor: pointer;
+}
+
+.current-label-topline {
+    color: #fff;
+}
+
+.hide{
+    display: none !important;
+}
+
+@media screen and (min-width: 375px) and (max-width: 991px)  {
+    .close-btn {
+        flex:0 !important;
+        padding: 0 20px 0 20px;
+    }
+}
+
+.active-modal-custom {
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg) !important;
+    transform-style: preserve-3d !important;
+}
+
+.tray-videos, .tray-ar, .tray-documents, .tray-forms, .tray-purchase, .tray-more, .tray-info-2 {
+    transition: transform .25s ease-in;
+}
