@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330.66295" height="135.42957" viewBox="0 0 330.66295 135.42957">
+  <title>Asset 9</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Favicon">
+      <g>
+        <polyline id="Background" points="154.019 90.41 3.019 90.41 3.019 3.41 154.019 3.41" style="fill: #465efb"/>
+        <rect x="3.01913" y="3.01913" width="150.95652" height="107.82609" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="3.01913" y1="90.49739" x2="153.97565" y2="90.49739" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="78.49739" y1="110.84522" x2="78.49739" y2="132.41043" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="35.36696" y1="132.41043" x2="121.62783" y2="132.41043" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="61.01913" y1="17.41043" x2="80.01913" y2="17.41043" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="91.01913" y1="17.41043" x2="110.01913" y2="17.41043" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <line x1="121.01913" y1="17.41043" x2="140.01913" y2="17.41043" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        <g>
+          <polyline id="Background-2" data-name="Background" points="309.927 108.128 255.6 96.962 273.317 10.764 327.644 21.93" style="fill: #465efb"/>
+          <rect x="247.62261" y="31.36078" width="87.71063" height="55.81586" transform="translate(174.73938 332.84553) rotate(-78.38521)" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+          <line x1="256.70377" y1="89.83617" x2="311.37671" y2="101.07361" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 20px"/>
+          <line x1="268.16764" y1="92.75045" x2="271.06505" y2="93.34599" style="fill: none;stroke: #465efb;stroke-linecap: round;stroke-linejoin: round;stroke-width: 10px"/>
+          <line x1="282.6547" y1="95.72812" x2="285.55212" y2="96.32365" style="fill: none;stroke: #465efb;stroke-linecap: round;stroke-linejoin: round;stroke-width: 10px"/>
+          <line x1="297.14177" y1="98.70578" x2="300.03918" y2="99.30131" style="fill: none;stroke: #465efb;stroke-linecap: round;stroke-linejoin: round;stroke-width: 10px"/>
+        </g>
+        <g>
+          <line x1="229.19304" y1="46.54087" x2="183.71478" y2="46.54087" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+          <polyline points="207.628 24.976 229.193 46.541 207.628 68.106" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-linejoin: round;stroke-width: 6.0382606983184814px"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
